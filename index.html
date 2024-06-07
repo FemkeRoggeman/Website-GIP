@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/rlb2jla.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay loop muted id="bgvid">
+        <source src="images/film_cinema.mp4" type="video/mp4">
+    </video>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="images/logo_comedyclubnight.svg" width="70" height="70" alt="Comedy Club Night Logo" />
+        </a>
+        <nav>
+            <ul class="unstyled">
+                <li><a href="#">Over</a></li>
+                <li><a href="#">Programma</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div id="mobile-menu-container">
+        <ul class="unstyled">
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section id="hero">
+        <hgroup>
+            <h1>FILMHUIS COMEDY CLUB NIGHT!</h1>
+            <h3>Live-comedy én een komische film</h3>
+        </hgroup>
+        <ul class="social unstyled">
+            <li><img src="icons/facebook.svg" alt="Facebook"></li>
+            <li><img src="icons/instagram.svg" alt="Instagram"></li>
+            <li><img src="icons/twitter.svg" alt="Twitter"></li>
+            <li><img src="icons/youtube.svg" alt="YouTube"></li>
+        </ul>
+        <div id="icon-scroll-down">
+            <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5 19V1M9.5 15L5.5 19L9.5 15ZM5.5 19L1.5 15L5.5 19Z" stroke="var(--oranje)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+    </section>
+    <main id="gallery">
+        <div class="quote">
+            <blockquote>
+                Bekijk het programma voor de komende periode
+            </blockquote>
+            <button class="link-button">
+                Programma
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="var(--white)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="films/THE_BIG_LEBOWSKI_3.jpg" alt="The big lebowski 3">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>29/1<span></span>20u30</h6>
+                <h4>THE BIG LEBOWSKI + open mic</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="films/TEAM_AMERICA.jpg" alt="team America">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>25/3<span></span>20u30</h6>
+                <h4>TEAM AMERICA: WORLD POLICE + open mic</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="films/CLERKS.jpg" alt="Clerks">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>27/5<span></span>20u30</h6>
+                <h4>CLERKS + open mic</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="films/MON_ONCLE.jpg" alt="Mon oncle">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>26/2<span></span>20u30</h6>
+                <h4>MON ONCLE + <br> Philippe Geubels </h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="films/THE_TRUMAN_SHOW_2.jpg" alt="The truman show">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>29/4<span></span>20u30</h6>
+                <h4>THE TRUMAN SHOW + Soe Nsuki</h4>
+            </hgroup>
+        </div>
+    </main>
+    <footer>
+        <hgroup>
+            <h5>LIVE-COMEDY ÉN EEN
+                KOMISCHE FILMKLASSIEKER
+                voor de prijs van één ticket!</h5>
+            <h6>6 euro: met seizoenskaart, 8 euro: zonder seizoenskaart, 2 euro: Uitpas met kansentarief</h6>
+        </hgroup>
+        <button class="link-button-2">
+            Koop ticket
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="var(--oranje)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+
+<section id="signIn">
+<div class="form">
+      <div class="title">Welkom</div>
+      <div class="subtitle">Maak een account aan!</div>
+      <div class="input-container ic1">
+        <input id="firstname" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="firstname" class="placeholder">First name</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="lastname" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="lastname" class="placeholder">Last name</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="email" class="input" type="text" placeholder=" " />
+        <div class="cut cut-short"></div>
+        <label for="email" class="placeholder">Email</>
+      </div>
+      <button type="text" class="submit">submit</button>
+    </div>
+    </section>
+
+        <ul class="social unstyled">
+            <li><img src="icons/facebook.svg" alt="Facebook"></li>
+            <li><img src="icons/instagram.svg" alt="Instagram"></li>
+            <li><img src="icons/twitter.svg" alt="Twitter"></li>
+            <li><img src="icons/youtube.svg" alt="YouTube"></li>
+        </ul>
+        <p>&copy; 2024 Fanta Fantastico. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
